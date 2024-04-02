@@ -1,27 +1,37 @@
 <div align="center">
-  <br />
-    <a href="https://youtu.be/R8CIO1DZ2b8" target="_blank">
-      <img src="https://github.com/adrianhajdin/zoom-clone/assets/67959015/f09a8421-67d3-45ce-b9bc-a791cdc2774b" alt="Project Banner">
-    </a>
+  
 
-<br />
-
-<div>
+  <div>
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-<h3 align="center">A Zoom Clone</h3>
+  <h3 align="center">A Zoom Clone</h3>
 
-## 📋 `<a name="table">`Table of Contents `</a>`
+   
+</div>
 
-1. ⚙️ [Tech Stack](#tech-stack)
+## 📋 <a name="table">Table of Contents</a>
+
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Assets &amp; Code](#snippets)
+5. 🕸️ [Assets & Code](#snippets)
 
-## `<a name="tech-stack">`⚙️ Tech Stack `</a>`
+
+
+
+## <a name="introduction">🤖 Introduction</a>
+
+Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.
+
+If you're getting started and need assistance or face any bugs, join our active Discord community with over 30 thousand members. It's a place where people help each other out.
+
+<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Next.js
 - TypeScript
@@ -30,7 +40,8 @@
 - shadcn
 - Tailwind CSS
 
-## `<a name="features">`🔋 Features `</a>`
+## <a name="features">🔋 Features</a>
+
 
 👉 **Authentication**: Implements authentication and authorization features using Clerk, allowing users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
 
@@ -54,9 +65,9 @@
 
 👉 **Responsive Design**: Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
 
-and many more, including code architecture and reusability.
+and many more, including code architecture and reusability. 
 
-## `<a name="quick-start">`🤸 Quick Start `</a>`
+## <a name="quick-start">🤸 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
 
@@ -108,7 +119,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-## `<a name="snippets">`🕸️ Snippets `</a>`
+## <a name="snippets">🕸️ Snippets</a>
 
 <details>
 <summary><code>app/globals.css</code></summary>
@@ -376,7 +387,7 @@ const MeetingCard = ({
               {buttonIcon1 && (
                 <Image src={buttonIcon1} alt="feature" width={20} height={20} />
               )}
-                {buttonText}
+              &nbsp; {buttonText}
             </Button>
             <Button
               onClick={() => {
@@ -393,7 +404,7 @@ const MeetingCard = ({
                 width={20}
                 height={20}
               />
-                Copy Link
+              &nbsp; Copy Link
             </Button>
           </div>
         )}
@@ -406,3 +417,8 @@ export default MeetingCard;
 ```
 
 </details>
+
+
+
+
+#
